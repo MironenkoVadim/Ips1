@@ -7,9 +7,10 @@
 using namespace std::chrono;
 
 // количество строк в исходной квадратной матрице
-const int MATRIX_SIZE = 1000;
+const int MATRIX_SIZE = 1500;
 duration<double> duration_serial;
 duration<double> duration_parallel;
+
 /// Функция InitMatrix() заполняет переданную в качестве 
 /// параметра квадратную матрицу случайными значениями
 /// matrix - исходная матрица СЛАУ
@@ -38,7 +39,6 @@ void SerialGaussMethod(double **matrix, const int rows, double* result)
 {
 	int k;
 	double koef;
-
 	high_resolution_clock::time_point start, finish;
 	start = high_resolution_clock::now();
 	// прямой ход метода Гаусса
@@ -55,24 +55,19 @@ void SerialGaussMethod(double **matrix, const int rows, double* result)
 			}
 		}
 	}
-
 	finish = high_resolution_clock::now();
-	duration<double> duration_serial = (finish - start);
+	duration_serial = (finish - start);
 	printf("Serial time is:: %lf sec\n\n", duration_serial.count());
-
+	
 	// обратный ход метода Гаусса
 	result[rows - 1] = matrix[rows - 1][rows] / matrix[rows - 1][rows - 1];
-
 	for (k = rows - 2; k >= 0; --k)
 	{
 		result[k] = matrix[k][rows];
-
-		//
 		for (int j = k + 1; j < rows; ++j)
 		{
 			result[k] -= matrix[k][j] * result[j];
 		}
-
 		result[k] /= matrix[k][k];
 	}
 }
@@ -138,21 +133,21 @@ int main()
 
 	// массив решений СЛАУ
 	double *result = new double[test_matrix_lines];
-
-
+	
 	// инициализация тестовой матрицы
 	//test_matrix[0][0] = 2; test_matrix[0][1] = 5;  test_matrix[0][2] = 4;  test_matrix[0][3] = 1;  test_matrix[0][4] = 20;
 	//test_matrix[1][0] = 1; test_matrix[1][1] = 3;  test_matrix[1][2] = 2;  test_matrix[1][3] = 1;  test_matrix[1][4] = 11;
 	//test_matrix[2][0] = 2; test_matrix[2][1] = 10; test_matrix[2][2] = 9;  test_matrix[2][3] = 7;  test_matrix[2][4] = 40;
 	//test_matrix[3][0] = 3; test_matrix[3][1] = 8;  test_matrix[3][2] = 9;  test_matrix[3][3] = 2;  test_matrix[3][4] = 37;
-
-	ParallelGaussMethod(test_matrix, test_matrix_lines, result);
 	SerialGaussMethod(test_matrix, test_matrix_lines, result);
+	ParallelGaussMethod(test_matrix, test_matrix_lines, result);
+	printf("Difference = %f\n", duration_serial.count()/duration_parallel.count());
 	for (i = 0; i < test_matrix_lines; ++i)
 	{
 		delete[]test_matrix[i];
 	}
-	printf("Solution:\n");
+
+	//printf("Solution:\n");
 
 	for (i = 0; i < test_matrix_lines; ++i)
 	{
