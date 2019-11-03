@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Users\Vadim\source\repos\Ips1\Ips1\main.cpp" md5="c63cf3e55ea022906846902bb9904beb">
+    <snippet line="119">
+      <line line="116">        //</line>
+      <line line="117">        cilk_for (int j = k + 1; j &lt; rows; ++j)</line>
+      <line line="118">        {</line>
+      <line line="119">            result[k] -= matrix[k][j] * result[j];</line>
+      <line line="120">        }</line>
+    </snippet>
+  </file>
+</snippets>

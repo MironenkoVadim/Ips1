@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <connectionOption></connectionOption>
+ <rdmgr>
+  <timestamp type="u64_t">1572549179</timestamp>
+  <hostname>DESKTOP-RC2B2HV</hostname>
+  <os>windows</os>
+  <product>Intel® Inspector 2019 Update 5</product>
+  <buildNumber type="s32_t">602103</buildNumber>
+  <logicalCPUCount type="s32_t">4</logicalCPUCount>
+  <physicalCoreCount type="s32_t">2</physicalCoreCount>
+  <processorPackageCount type="s32_t">1</processorPackageCount>
+  <CPUFrequency type="s64_t">2295000000</CPUFrequency>
+  <CPUFamily type="s32_t">6</CPUFamily>
+  <CPUModel type="s32_t">42</CPUModel>
+  <CPUStepping type="s32_t">7</CPUStepping>
+  <CPUBrandName>       Intel(R) Core(TM) i3-2348M CPU @ 2.30GHz</CPUBrandName>
+  <isa>avx</isa>
+ </rdmgr>
+ <contextValues type="bag"/>
+ <All_Configurations-All_Platforms>
+  <searchDirs>
+   <searchCategory>
+    <category type="u8_t">1</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">2</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">3</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">4</category>
+   </searchCategory>
+  </searchDirs>
+  <analysis_type_settings>
+   <selected_analysis_type_path>C:\Apps\IntelParallel\Inspector 2019\config\analysis_type\ti3.cfg</selected_analysis_type_path>
+  </analysis_type_settings>
+  <target_settings>
+   <selected_workload>
+    <localhost>launch</localhost>
+   </selected_workload>
+   <result_pattern>
+    <localhost>r@@@{at}</localhost>
+   </result_pattern>
+   <workloads>
+    <localhost>
+     <launch type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>launch</targetName>
+       <launch_app.inherit_sys_environment type="bool">true</launch_app.inherit_sys_environment>
+       <launch.userapppath>C:\Users\Vadim\source\repos\Ips1\Debug\Ips1.exe</launch.userapppath>
+       <launch.userappworkdir>C:\Users\Vadim\source\repos\Ips1\Ips1</launch.userappworkdir>
+       <enable_app_output_log type="bool">false</enable_app_output_log>
+       <project_id>{21824817-217F-410C-82FD-245B1BC1B0A1}</project_id>
+       <launch_app.app_to_launch>C:\Users\Vadim\source\repos\Ips1\Debug\Ips1.exe</launch_app.app_to_launch>
+       <launch_app.working_folder>C:\Users\Vadim\source\repos\Ips1\Ips1</launch_app.working_folder>
+       <launch_app.environment_prepend>PATH=C:\Apps\IntelParallel\compilers_and_libraries_2019\windows\redist\ia32\compiler;</launch_app.environment_prepend>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>C:\Users\Vadim\source\repos\Ips1\Ips1\My Inspector Results - Ips1\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=C:\Users\Vadim\source\repos\Ips1\Debug</value>
+        </item>
+        <item>
+         <value>sym=C:\Users\Vadim\source\repos\Ips1</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\Vadim\source\repos\Ips1\Debug</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\Vadim\source\repos\Ips1</value>
+        </item>
+        <item>
+         <value>bin=C:\Apps\IntelParallel\compilers_and_libraries_2019\windows\bin\intel64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\tools</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\ide</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\HTML Help Workshop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x64</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\SysWow64</value>
+        </item>
+        <item>
+         <value>bin=C:\Apps\IntelParallel\compilers_and_libraries_2019.5.281\windows\mpi\intel64\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft MPI\Bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft HPC Pack 2012\Bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Haskell\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Apps\Haskell\8.6.3\lib\extralibs\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Apps\Haskell\8.6.3\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\OpenSSH</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common</value>
+        </item>
+        <item>
+         <value>bin=C:\Apps\Haskell\8.6.3\mingw\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\OpenVPN\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2014b\runtime\win64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2014b\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\MATLAB\R2014b\polyspace\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\Vadim\AppData\Roaming\cabal\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Apps\Haskell\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Users\Vadim\AppData\Local\Microsoft\WindowsApps</value>
+        </item>
+        <item>
+         <value>bin=C:\Apps\Microsoft VS Code\bin</value>
+        </item>
+       </search_directories>
+       <exclude_modules type="bag"/>
+       <context>
+        <contextValue>
+         <id>appdebug</id>
+         <value>off</value>
+        </contextValue>
+        <contextValue>
+         <id>custom_debugger</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>debug_this_problem</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>debug_using</id>
+         <value>gdb</value>
+        </contextValue>
+        <contextValue>
+         <id>heartbeat</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>modules_switch</id>
+         <value>knob.modules_switch.include</value>
+        </contextValue>
+        <contextValue>
+         <id>mrte_mode</id>
+         <value>auto</value>
+        </contextValue>
+        <contextValue>
+         <id>process_for_analysis</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>suppressions</id>
+         <value>delete</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>launch</value>
+        </contextValue>
+        <contextValue>
+         <id>traceMpi</id>
+         <value type="bool">false</value>
+        </contextValue>
+       </context>
+      </workload>
+     </launch>
+    </localhost>
+   </workloads>
+   <result_dir>
+    <localhost>C:\Users\Vadim\source\repos\Ips1\Ips1\My Inspector Results - Ips1</localhost>
+   </result_dir>
+  </target_settings>
+ </All_Configurations-All_Platforms>
+ <suppressions type="bag"/>
+ <debugger_settings>
+  <debugger_mode>off</debugger_mode>
+  <at_cliname>ti3</at_cliname>
+ </debugger_settings>
+</root>
