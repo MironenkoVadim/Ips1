@@ -2,7 +2,7 @@
 <root>
  <connectionOption></connectionOption>
  <rdmgr>
-  <timestamp type="u64_t">1572549179</timestamp>
+  <timestamp type="u64_t">1574965982</timestamp>
   <hostname>DESKTOP-RC2B2HV</hostname>
   <os>windows</os>
   <product>Intel® Inspector 2019 Update 5</product>
@@ -19,20 +19,6 @@
  </rdmgr>
  <contextValues type="bag"/>
  <All_Configurations-All_Platforms>
-  <searchDirs>
-   <searchCategory>
-    <category type="u8_t">1</category>
-   </searchCategory>
-   <searchCategory>
-    <category type="u8_t">2</category>
-   </searchCategory>
-   <searchCategory>
-    <category type="u8_t">3</category>
-   </searchCategory>
-   <searchCategory>
-    <category type="u8_t">4</category>
-   </searchCategory>
-  </searchDirs>
   <analysis_type_settings>
    <selected_analysis_type_path>C:\Apps\IntelParallel\Inspector 2019\config\analysis_type\ti3.cfg</selected_analysis_type_path>
   </analysis_type_settings>
@@ -48,37 +34,37 @@
      <launch type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
       <workload>
        <targetName>launch</targetName>
-       <launch_app.inherit_sys_environment type="bool">true</launch_app.inherit_sys_environment>
-       <launch.userapppath>C:\Users\Vadim\source\repos\Ips1\Debug\Ips1.exe</launch.userapppath>
-       <launch.userappworkdir>C:\Users\Vadim\source\repos\Ips1\Ips1</launch.userappworkdir>
        <enable_app_output_log type="bool">false</enable_app_output_log>
        <project_id>{21824817-217F-410C-82FD-245B1BC1B0A1}</project_id>
-       <launch_app.app_to_launch>C:\Users\Vadim\source\repos\Ips1\Debug\Ips1.exe</launch_app.app_to_launch>
+       <launch_app.app_to_launch>C:\Users\Vadim\source\repos\Ips1\x64\Release\Ips1.exe</launch_app.app_to_launch>
        <launch_app.working_folder>C:\Users\Vadim\source\repos\Ips1\Ips1</launch_app.working_folder>
-       <launch_app.environment_prepend>PATH=C:\Apps\IntelParallel\compilers_and_libraries_2019\windows\redist\ia32\compiler;</launch_app.environment_prepend>
+       <launch_app.environment_prepend>PATH=C:\Apps\IntelParallel\compilers_and_libraries_2019\windows\redist\intel64\compiler;</launch_app.environment_prepend>
        <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
        <result_directory.path>C:\Users\Vadim\source\repos\Ips1\Ips1\My Inspector Results - Ips1\r@@@{at}</result_directory.path>
        <search_directories>
         <item>
-         <value>sym=C:\Users\Vadim\source\repos\Ips1\Debug</value>
+         <value>sym=C:\Users\Vadim\source\repos\Ips1\x64\Release</value>
         </item>
         <item>
          <value>sym=C:\Users\Vadim\source\repos\Ips1</value>
         </item>
         <item>
-         <value>bin=C:\Users\Vadim\source\repos\Ips1\Debug</value>
+         <value>bin=C:\Users\Vadim\source\repos\Ips1\x64\Release</value>
         </item>
         <item>
          <value>bin=C:\Users\Vadim\source\repos\Ips1</value>
         </item>
         <item>
-         <value>bin=C:\Apps\IntelParallel\compilers_and_libraries_2019\windows\bin\intel64</value>
-        </item>
-        <item>
-         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x86</value>
+         <value>bin=C:\Apps\IntelParallel\compilers_and_libraries_2019\windows\bin\Intel64</value>
         </item>
         <item>
          <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86</value>
         </item>
         <item>
          <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\tools</value>
@@ -90,10 +76,13 @@
          <value>bin=C:\Program Files (x86)\HTML Help Workshop</value>
         </item>
         <item>
-         <value>bin=C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x64</value>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin</value>
         </item>
         <item>
-         <value>bin=C:\Windows\SysWow64</value>
+         <value>bin=C:\Windows\Microsoft.NET\Framework64\v4.0.30319</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\Microsoft.NET\Framework\v4.0.30319</value>
         </item>
         <item>
          <value>bin=C:\Apps\IntelParallel\compilers_and_libraries_2019.5.281\windows\mpi\intel64\bin</value>
@@ -222,14 +211,6 @@
      </launch>
     </localhost>
    </workloads>
-   <result_dir>
-    <localhost>C:\Users\Vadim\source\repos\Ips1\Ips1\My Inspector Results - Ips1</localhost>
-   </result_dir>
   </target_settings>
  </All_Configurations-All_Platforms>
- <suppressions type="bag"/>
- <debugger_settings>
-  <debugger_mode>off</debugger_mode>
-  <at_cliname>ti3</at_cliname>
- </debugger_settings>
 </root>

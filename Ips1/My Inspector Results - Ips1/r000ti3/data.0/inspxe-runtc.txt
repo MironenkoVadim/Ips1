@@ -1,0 +1,84 @@
+
+=== Start: [2019/11/28 21:33:07] === 
+Analysis started...
+Result file: C:\Users\Vadim\source\repos\Ips1\Ips1\My Inspector Results - Ips1\r000ti3\r000ti3.inspxe 
+Found target process c:\users\vadim\source\repos\ips1\x64\release\ips1.exe (PID = 7988). Analysis started... 
+Loaded module: c:\users\vadim\source\repos\ips1\x64\release\ips1.exe. 
+Loaded module: c:\windows\system32\kernelbase.dll. 
+Loaded module: c:\windows\system32\kernel32.dll. 
+Loaded module: c:\windows\system32\ntdll.dll. 
+Loaded module: c:\windows\system32\ucrtbase.dll. 
+Loaded module: c:\windows\system32\msvcp140.dll. 
+Loaded module: c:\windows\system32\vcruntime140.dll. 
+Loaded module: c:\apps\intelparallel\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll. 
+Loaded module: c:\windows\system32\user32.dll. 
+Loaded module: c:\windows\system32\win32u.dll. 
+Loaded module: c:\windows\system32\gdi32.dll. 
+Loaded module: c:\windows\system32\gdi32full.dll. 
+Loaded module: c:\windows\system32\msvcp_win.dll. 
+Loaded module: c:\windows\system32\imm32.dll. 
+Loaded module: c:\windows\system32\driverstore\filerepository\nvlti.inf_amd64_4857f486ec8872cb\nvinitx.dll. 
+Loaded module: c:\windows\system32\advapi32.dll. 
+Loaded module: c:\windows\system32\version.dll. 
+Loaded module: c:\windows\system32\msvcrt.dll. 
+Loaded module: c:\windows\system32\sechost.dll. 
+Loaded module: c:\windows\system32\rpcrt4.dll. 
+Loaded module: c:\windows\system32\shell32.dll. 
+Loaded module: c:\windows\system32\cfgmgr32.dll. 
+Loaded module: c:\windows\system32\shcore.dll. 
+Loaded module: c:\windows\system32\combase.dll. 
+Loaded module: c:\windows\system32\bcryptprimitives.dll. 
+Loaded module: c:\windows\system32\windows.storage.dll. 
+Loaded module: c:\windows\system32\profapi.dll. 
+Loaded module: c:\windows\system32\powrprof.dll. 
+Loaded module: c:\windows\system32\shlwapi.dll. 
+Loaded module: c:\windows\system32\kernel.appcore.dll. 
+Loaded module: c:\windows\system32\cryptsp.dll. 
+Loaded module: c:\program files\nvidia corporation\coprocmanager\detoured.dll. 
+Loaded module: c:\program files\nvidia corporation\coprocmanager\nvd3d9wrapx.dll. 
+Loaded module: c:\windows\system32\setupapi.dll. 
+Loaded module: c:\windows\system32\bcrypt.dll. 
+Loaded module: c:\program files\nvidia corporation\coprocmanager\nvdxgiwrapx.dll. 
+Loaded module: c:\apps\intelparallel\inspector 2019\bin64\runtime\libittnotify.dll. 
+Unloaded module: c:\users\vadim\source\repos\ips1\x64\release\ips1.exe. 
+Unloaded module: c:\windows\system32\kernelbase.dll. 
+Unloaded module: c:\windows\system32\kernel32.dll. 
+Unloaded module: c:\windows\system32\ntdll.dll. 
+Unloaded module: c:\windows\system32\ucrtbase.dll. 
+Unloaded module: c:\windows\system32\msvcp140.dll. 
+Unloaded module: c:\windows\system32\vcruntime140.dll. 
+Unloaded module: c:\apps\intelparallel\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll. 
+Unloaded module: c:\windows\system32\user32.dll. 
+Unloaded module: c:\windows\system32\win32u.dll. 
+Unloaded module: c:\windows\system32\gdi32.dll. 
+Unloaded module: c:\windows\system32\gdi32full.dll. 
+Unloaded module: c:\windows\system32\msvcp_win.dll. 
+Unloaded module: c:\windows\system32\imm32.dll. 
+Unloaded module: c:\windows\system32\driverstore\filerepository\nvlti.inf_amd64_4857f486ec8872cb\nvinitx.dll. 
+Unloaded module: c:\windows\system32\advapi32.dll. 
+Unloaded module: c:\windows\system32\version.dll. 
+Unloaded module: c:\windows\system32\msvcrt.dll. 
+Unloaded module: c:\windows\system32\sechost.dll. 
+Unloaded module: c:\windows\system32\rpcrt4.dll. 
+Unloaded module: c:\windows\system32\shell32.dll. 
+Unloaded module: c:\windows\system32\cfgmgr32.dll. 
+Unloaded module: c:\windows\system32\shcore.dll. 
+Unloaded module: c:\windows\system32\combase.dll. 
+Unloaded module: c:\windows\system32\bcryptprimitives.dll. 
+Unloaded module: c:\windows\system32\windows.storage.dll. 
+Unloaded module: c:\windows\system32\profapi.dll. 
+Unloaded module: c:\windows\system32\powrprof.dll. 
+Unloaded module: c:\windows\system32\shlwapi.dll. 
+Unloaded module: c:\windows\system32\kernel.appcore.dll. 
+Unloaded module: c:\windows\system32\cryptsp.dll. 
+Unloaded module: c:\program files\nvidia corporation\coprocmanager\detoured.dll. 
+Unloaded module: c:\program files\nvidia corporation\coprocmanager\nvd3d9wrapx.dll. 
+Unloaded module: c:\windows\system32\setupapi.dll. 
+Unloaded module: c:\windows\system32\bcrypt.dll. 
+Unloaded module: c:\program files\nvidia corporation\coprocmanager\nvdxgiwrapx.dll. 
+Unloaded module: c:\apps\intelparallel\inspector 2019\bin64\runtime\libittnotify.dll. 
+Process c:\users\vadim\source\repos\ips1\x64\release\ips1.exe (PID = 7988) has terminated. 
+Application exit code: 0 
+Result file: C:\Users\Vadim\source\repos\Ips1\Ips1\My Inspector Results - Ips1\r000ti3\r000ti3.inspxe 
+Analysis completed
+=== End: [2019/11/28 21:33:42] === 

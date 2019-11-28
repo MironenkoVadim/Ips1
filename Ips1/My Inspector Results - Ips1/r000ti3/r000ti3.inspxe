@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <rdmgr>
+  <timestamp type="u64_t">1574965986</timestamp>
+  <hostname>DESKTOP-RC2B2HV</hostname>
+  <os>windows</os>
+  <product>Intel® Inspector 2019 Update 5</product>
+  <buildNumber type="s32_t">602103</buildNumber>
+  <logicalCPUCount type="s32_t">4</logicalCPUCount>
+  <physicalCoreCount type="s32_t">2</physicalCoreCount>
+  <processorPackageCount type="s32_t">1</processorPackageCount>
+  <CPUFrequency type="s64_t">2295000000</CPUFrequency>
+  <CPUFamily type="s32_t">6</CPUFamily>
+  <CPUModel type="s32_t">42</CPUModel>
+  <CPUStepping type="s32_t">7</CPUStepping>
+  <CPUBrandName>       Intel(R) Core(TM) i3-2348M CPU @ 2.30GHz</CPUBrandName>
+  <isa>avx</isa>
+  <collectionTimeBegin type="u64_t">1574965986</collectionTimeBegin>
+  <collectionTimeEnd type="u64_t">1574966022</collectionTimeEnd>
+  <variables>
+   <at>ti3</at>
+  </variables>
+ </rdmgr>
+</root>
